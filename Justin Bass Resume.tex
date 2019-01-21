@@ -1,0 +1,178 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+% Several modifications made over original design by Justin Bass.
+
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+%\usepackage{awesome-cv/awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{}{Justin Bass}
+\position{Software Engineer}
+\address{1434 Whispering Trail, Irvine, CA 92602}
+\mobile{949-689-8912} 
+
+\email{justinalanbass@gmail.com}
+\github{justinbass}
+\linkedin{justinalanbass}
+% \homepage{justinalanbass.com}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Justin Bass}
+  {} %{\thepage}
+
+\cvsection{Experience}
+\begin{cventries}
+
+	\cventry
+	{Software Development Engineer II} % Job title
+	{Amazon.com, Inc.} % Organization
+	{Irvine, CA} % Location
+	{Aug 2018 - Present \textbf{}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Lead developer for Apps and Skills linking in Appstore on Fire Tablets. Lead several developers across 4 teams to a successful delivery.}
+			\item {Core developer for Alexa Voice Tips on Fire TV devices. Designed core Android controller with complex filtering conditions.}
+			\item {Scrum master: mentored and coordinated team members, characterized performance, and implemented improvements.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Software Development Engineer I}
+	{}
+	{}
+	{Nov 2016 - Aug 2018 \textbf{1.75 yrs}} {
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Lead developer for Amazon Pay integration with Appstore on Fire Tablets, lead project to successful completion.}
+			\item {Core developer for 3P Developer Cards in Show Mode on Fire Tablets. Solved core technical challenges and aided project in successful delivery.}
+			\item {Performed regular on-call duty, leading team members through several notable high-severity incidents quickly and effectively.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Software Engineer} % Job title
+	{ViaSat Inc.} % Organization
+	{Carlsbad, CA} % Location
+	{Apr 2015 - Nov 2016, \textbf{1.5 yrs}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Core programmer for Tcl test-automation framework tool, designed bindings for Python while mentoring and leading two junior team members.}
+			\item {Lead team to adopt Ansible and enforced dev-ops practices for server maintenance, greatly improved reliability and reduced manual effort.}
+			\item {Took up a critical past-due Python test system-monitoring project within my first 2 months, passed acceptance tests and improved testing.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Software Engineering Intern} % Job title
+	{ViaSat Inc.} % Organization
+	{Carlsbad, CA} % Location
+	{Summer 2013, 2014, \textbf{9 mo}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {2014: Used AWS EC2 clouds and Git to automate and expedite firewall requests and audits.}
+			\item {2013: Developed tool that prevents thousands of ineffective service calls monthly.}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Test Engineering Intern} % Job title
+	{Conexant Systems, Inc.} % Organization
+	{Newport Beach, CA} % Location
+	{Aug 2011 - Feb 2013, \textbf{1.5 yrs}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) of tasks/responsibilities
+			\item {Developed C/C++ automation tools, brought intensive testing project to successful completion.}
+		\end{cvitems}
+	}
+\end{cventries}
+
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Master of Science in Computer Science} % Degree
+	{University of California, Los Angeles} % Institution
+	{Los Angeles, CA} % Location
+	{Sep 2013 - Mar 2015, \textbf{1.5 yrs}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) bullet points
+			\item {Bioinformatics master's project, computer vision and graphics, algorithms and theory, programming lanuages, operating system design}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{Bachelor of Science in Electrical Engineering} % Degree
+	{University of California, Irvine} % Institution
+	{Irvine, CA} % Location
+	{Sep 2009 - Mar 2013, \textbf{3.5 yrs}} % Date(s)
+	{
+		\begin{cvitems} % Description(s) bullet points
+			\item {C programming, Android game programming (Java), circuit design and analysis (Mathematica).}
+		\end{cvitems}
+	}
+\end{cventries}
+
+\cvsection{Skills}
+\begin{cvskills}
+	\cvskill
+	{Great leadership ability}
+	{I excel at leading and coordinating team members to successful completion of a project, and love mentoring.}
+	
+	\cvskill
+	{Works well in a team}
+	{I encourage other's professional development and am adept at conflict resolution and mediation.}
+
+	\cvskill
+	{Proficient with}
+	{Kotlin, Java, Android, Python, C/C++, Tcl, Linux, Ansible, AWS Stack, OpenStack, Git, Web Stack, {\fontfamily{}\selectfont \LaTeX}\ (and vim!).}
+\end{cvskills}
+
+\end{document}
